@@ -19,6 +19,7 @@ let products =[
     tot.innerText=total
     
     
+    
        let list =document.getElementById(`lest`)
        list.innerHTML+=`<li>${product.name}${product.price}</li>`
     }
